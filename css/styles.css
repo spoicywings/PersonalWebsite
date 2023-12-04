@@ -1,0 +1,42 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #FFE3BB;
+}
+
+h1, h2 {
+    color: #83A2FF;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 30%;
+    background-color: #83A2FF;
+    border-radius: 5%;
+    text-align: center;
+}
+
+
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navBarItem {
+    float:left;
+}
+
+li>a {
+    display:block;
+    color: #83A2FF;
+    text-align: left;
+    padding: 20px 10px 10px 0px;
+    text-decoration: none;
+}
